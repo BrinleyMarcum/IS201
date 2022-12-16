@@ -1,0 +1,60 @@
+
+body{
+    background-color: beige;
+}
+
+.stock{
+    color: red;
+}
+
+#tab{
+    position: relative;
+    left:25em;
+}
+
+h1{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    left: 22em;
+}
+
+nav{
+    position: relative;
+    left: 48em;
+}
+
+/* Make grid */
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #ffffff2c;
+    padding: 10px;
+  }
+  
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.096);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  img{
+    height: 5em;
+    width: 5em;
+  }
+
+  #youtube{
+    position: relative;
+    align-items: center;
+    left: 25em;
+  }
+
+  footer{
+    border-radius: 20em;
+    border-color: black;
+    border-style: groove;
+    padding: 20px 20px;
+    text-align: center;
+  }
